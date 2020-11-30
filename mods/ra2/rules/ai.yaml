@@ -59,7 +59,7 @@ Player:
 			nahand: 2
 			gaweap: 2
 			naweap: 2
-			nayard: 1
+			nayard: 0 # TODO re-enable when fix found def 1
 			gayard: 1
 			gadept: 1
 			nadept: 1
@@ -79,7 +79,7 @@ Player:
 			nahand: 1
 			gaweap: 1
 			naweap: 1
-			nayard: 1
+			nayard: 0 # TODO re-enable when fix found def 1
 			gayard: 1
 			gaairc: 1
 			amradr: 1
@@ -103,7 +103,7 @@ Player:
 		SquadSize: 5
 		ExcludeFromSquadsTypes: cmin, harv, amcv, smcv
 		ConstructionYardTypes: gacnst, nacnst
-		NavalUnitsTypes: dest, aegis, dlph, carrier, sub, hyd, sqd
+		NavalUnitsTypes:  # TODO re-enable when fix found, normally dest, aegis, dlph, carrier, sub, hyd, sqd
 		NavalProductionTypes: nayard, gayard
 	UnitBuilderBotModule@test:
 		RequiresCondition: enable-test-ai
@@ -130,12 +130,12 @@ Player:
 			apoc: 10
 			tnkd: 15
 			ttnk: 15
-			dest: 20
-			aegis: 20
-			dlph: 5
+			dest: 0 # TODO re-enable when fix found def 20
+			aegis: 0 # TODO re-enable when fix found def 20
+			dlph: 0 # TODO re-enable when fix found def 5
 			carrier: 3
-			sub: 20
-			hyd: 20
+			sub: 0 # TODO re-enable when fix found def 20
+			hyd: 0 # TODO re-enable when fix found def 20
 			sqd: 5
 		UnitLimits:
 			dog: 4
