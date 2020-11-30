@@ -506,7 +506,7 @@ jumpjet:
 		Prerequisites: ~gapile, radar
 		Description: Airborne soldier.\n  Strong vs Infantry, Aircraft\n  Weak vs Vehicles
 	Valued:
-		Cost: 600
+		Cost: 900
 	Tooltip:
 		Name: Rocketeer
 	Selectable:
