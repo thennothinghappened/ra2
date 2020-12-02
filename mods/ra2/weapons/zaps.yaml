@@ -263,20 +263,20 @@ LightningStorm:
 	Warhead@2Dam: SpreadDamage
 		Delay: 56
 		Spread: 3c0
-		Damage: 165
+		Damage: 100
 		AffectsParent: true
 		Versus:
-			None: 100
-			Flak: 100
-			Plate: 100
-			Light: 100
-			Medium: 100
-			Heavy: 100
-			Wood: 100
-			Steel: 100
+			None: 70
+			Flak: 70
+			Plate: 70
+			Light: 70
+			Medium: 70
+			Heavy: 70
+			Wood: 70
+			Steel: 70
 			Concrete: 3
-			Drone: 100
-			Rocket: 100
+			Drone: 70
+			Rocket: 70
 		DamageTypes: Prone100Percent
 	Warhead@3Eff: CreateEffect
 		Delay: 56

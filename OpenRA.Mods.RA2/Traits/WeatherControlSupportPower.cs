@@ -30,7 +30,7 @@ namespace OpenRA.Mods.RA2.Traits.SupportPowers
 		public readonly int Duration = 180;
 
 		[Desc("Delay between direct hits.")]
-		public readonly int HitDelay = 10;
+		public readonly int HitDelay = 35;
 
 		[Desc("Delay between random cloud spawning.")]
 		public readonly int ScatterDelay = 5;
