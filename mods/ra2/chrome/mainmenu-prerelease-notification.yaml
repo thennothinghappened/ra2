@@ -11,35 +11,35 @@ Background@MAINMENU_PRERELEASE_NOTIFICATION:
 			Height: 25
 			Font: Bold
 			Align: Center
-			Text: Red Alert 2 developer preview
+			Text: Red Alert 2
 		Label@PROMPT_TEXT_A:
 			X: 15
 			Y: 50
 			Width: PARENT_RIGHT - 30
 			Height: 16
 			Align: Center
-			Text: This pre-alpha build of OpenRA's Red Alert 2 mod is made available
+			Text: This is an alpha build of ThenNothing's Red Alert 2 mod which is
 		Label@PROMPT_TEXT_B:
 			X: 15
 			Y: 68
 			Width: PARENT_RIGHT - 30
 			Height: 16
 			Align: Center
-			Text: for the community to follow development and as example for modders.
+			Text: currently in development, seeking to improve balance that the base
 		Label@PROMPT_TEXT_C:
 			X: 15
 			Y: 104
 			Width: PARENT_RIGHT - 30
 			Height: 16
 			Align: Center
-			Text: Many features are missing or incomplete, performance has not been
+			Text: game has not yet worked on, many features do not yet work such as
 		Label@PROMPT_TEXT_D:
 			X: 15
 			Y: 122
 			Width: PARENT_RIGHT - 30
 			Height: 16
 			Align: Center
-			Text: optimized, and balance will not be addressed until a future beta.
+			Text: prism tower connection, however they are actively in development.
 		Label@PROMPT_TEXT_E:
 			X: 15
 			Y: 140
