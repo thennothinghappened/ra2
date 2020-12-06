@@ -1,5 +1,7 @@
 RedEye2:
 	Inherits: ^AAMissile
+	Warhead@1Dam: SpreadDamage
+		Speed: 600
 	Projectile: Missile
 		TrailImage: smokey2
 		LockOnProbability: 80
@@ -69,7 +71,7 @@ Maverick2:
 
 Medusa:
 	Inherits: ^AAMissile
-	ReloadDelay: 100
+	ReloadDelay: 40
 	Report: vaegatta.wav, vaegattb.wav
 	Burst: 3
 	BurstDelays: 13
@@ -79,7 +81,8 @@ Medusa:
 		RangeLimit: 15c409
 	Warhead@1Dam: SpreadDamage
 		Spread: 60
-		Damage: 100
+		Damage: 40
+		Speed: 800
 
 HoverMissile:
 	Inherits: ^Missile
@@ -196,7 +199,7 @@ HornetBomb:
 	Warhead@1Dam: SpreadDamage
 		Spread: 0c410
 		Falloff: 100, 0
-		Damage: 80
+		Damage: 60
 		ValidTargets: Ground, Water
 		Versus:
 			None: 100
