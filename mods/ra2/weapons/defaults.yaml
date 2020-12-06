@@ -94,7 +94,7 @@
 	Inherits: ^Missile
 	ValidTargets: Air
 	Warhead@1Dam: SpreadDamage
-		Speed: 200
+		Speed: 600
 		Spread: 120
 		Damage: 75
 		ValidTargets: Air
