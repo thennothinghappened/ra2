@@ -303,7 +303,8 @@ hornet:
 		PauseOnCondition: !ammo
 		RequiresCondition: rank-elite
 	Aircraft:
-		AltitudeVelocity: 240
+		AltitudeVelocity: 150
+		Speed: 160
 		VTOL: true
 		Repulsable: false
 		TakeoffSounds: vhortaka.wav, vhortakb.wav
