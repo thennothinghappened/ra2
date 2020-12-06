@@ -277,7 +277,7 @@ apoc:
 		TurnSpeed: 5
 		Locomotor: heavytracked
 	Health:
-		HP: 800
+		HP: 1000
 	Armor:
 		Type: Heavy
 	RevealsShroud:
