@@ -67,7 +67,7 @@ TankBoltE:
 		Damage: 150
 
 SonicZap:
-	ReloadDelay: 180
+	ReloadDelay: 50
 	Range: 6c0
 	Report: vdolatta.wav
 	ValidTargets: Water, Underwater
