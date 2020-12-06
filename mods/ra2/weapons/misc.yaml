@@ -1,5 +1,5 @@
 BlimpBomb:
-	ReloadDelay: 25
+	ReloadDelay: 20
 	Range: 0c256
 	MinRange: 0c001
 	Report: vkiratta.wav
@@ -38,6 +38,7 @@ BlimpBomb:
 		SmudgeType: MediumCrater, MediumScorch
 
 BlimpBombE:
+	ReloadDelay: 15
 	Inherits: BlimpBomb
 	Warhead@2Eff: CreateEffect
 		Explosions: kirovtesla
