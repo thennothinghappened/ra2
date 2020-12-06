@@ -455,3 +455,21 @@ naflak:
 		ShadowStart: 9
 		ZOffset: 0
 	icon: flakicon
+
+naorep:
+	Inherits: ^Structure
+	Defaults:
+		Offset: 0, -45, 45
+	idle: ggorep
+	damaged-idle: ggorep
+	idle-glow: ggorep_a
+		Length: 8
+		ShadowStart: 16
+		Tick: 180
+	damaged-idle-glow: ggorep_a
+		Start: 8
+		Length: 8
+		ShadowStart: 24
+		Tick: 180
+	make: gtorepmk
+	icon: gorep
